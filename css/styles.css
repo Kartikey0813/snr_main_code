@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Dark text color */
+}
+
+/* Header Styles */
+header {
+    background: #00bfff; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navbar Styles */
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the navbar items */
+    background-color: #00bfff; /* Navbar background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.navbar li {
+    margin: 0 15px; /* Space between items */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for background and transform */
+}
+
+.navbar a:hover {
+    background-color: #f19408; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge the link */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+    .navbar li {
+        margin: 10px 0; /* Space between items */
+    }
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h2 {
+    color: #4CAF50; /* Heading color */
+}
+
+h3 {
+    color: #333; /* Subheading color */
+}
+
+/* List Styles */
+ul {
+    padding-left: 20px; /* Indent for lists */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4CAF50; /* Footer background color */
+    color: #fff; /* Footer text color */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+    .navbar li {
+        margin: 10px 0; /* Space between items */
+    }
+}
